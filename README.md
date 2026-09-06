@@ -149,7 +149,7 @@ Drogoz Network runs **13 live products** — from an unmetered AI workspace for 
 <td align="center" valign="top" width="33%" colspan="3">
 <a href="https://github.com/deepdrogo/mamont-tech"><img src="assets/icons/mamont-tech.png" width="80" alt="Mamont"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/mamont-tech"><b>Mamont</b></a><br/>
-<sub>Financial operations and cryptocurrency accounting platform: an auditable chain from blockchain event to report, with no economic event ever counted twice.</sub><br/><br/>
+<sub>Crypto-financial operations and accounting platform: an auditable chain from blockchain event to report, no economic event counted twice — with Team Chat, Drog AI and Telegram bots inside. Monthly licence.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Finance-c9a855?style=flat-square" alt="Finance"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/> <img src="https://img.shields.io/badge/Private%20deployment-1a1a1a?style=flat-square" alt="Private deployment"/><br/><br/>
 <sub><a href="https://github.com/deepdrogo/mamont-tech">Repo</a></sub>
 </td>
