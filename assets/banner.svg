@@ -44,7 +44,7 @@
 <text x="416" y="377" font-family="'Space Grotesk','Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#fff">16</text>
 <text x="446" y="376" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace" font-size="10.5" letter-spacing="1.6" fill="#808080">CLIENTS</text>
 <rect x="527.2" y="354" width="178" height="34" rx="17" fill="#0d0d0d" stroke="#404040"/>
-<text x="543.2" y="377" font-family="'Space Grotesk','Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#fff">13</text>
+<text x="543.2" y="377" font-family="'Space Grotesk','Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#fff">14</text>
 <text x="573.2" y="376" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace" font-size="10.5" letter-spacing="1.6" fill="#808080">ACTIVE SERVICES</text>
 <rect x="715.2" y="354" width="140" height="34" rx="17" fill="#0d0d0d" stroke="#404040"/>
 <text x="731.2" y="377" font-family="'Space Grotesk','Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#fff">99.9%</text>
