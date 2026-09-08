@@ -117,7 +117,7 @@ Drogoz Network runs **14 live products** — from an unmetered AI workspace for 
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/verifhub-ai"><img src="assets/icons/verifhub-ai.png" width="80" alt="VerifHub AI"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/verifhub-ai"><b>VerifHub AI</b></a><br/>
-<sub>Bulk email & phone verification with 99.9% accuracy, powered by a 100,000-node API network.</sub><br/><br/>
+<sub>Live SMTP email verification, live HLR carrier lookups and breach screening — 99.2% accuracy, 4,800 records a minute, 190+ countries, prepaid per record.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Verify-c9a855?style=flat-square" alt="Verify"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://verifhub.ai/">Website</a> · <a href="https://drogoz.network/services/VerifHub/">Details</a> · <a href="https://github.com/deepdrogo/verifhub-ai">Repo</a></sub>
 </td>
