@@ -560,49 +560,33 @@ One application that talks to the Hashgram peer-to-peer network — **never to o
 
 There is no waiting list and nobody to ask. Pick the way in that suits you:
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**Run a node and earn**
-
-Ubuntu Server 24.04, a public IPv4, ports 26656 and 26670 open.
+**🖧 Run a node and earn.** Ubuntu Server 24.04, a public IPv4, ports 26656 and 26670 (TCP + UDP) open.
 
 ```bash
-git clone https://github.com/deepdrogo/hashgram
-cd hashgram
-sudo scripts/install/bootstrap-ubuntu.sh
+git clone https://github.com/deepdrogo/hashgram && cd hashgram
+sudo scripts/install/bootstrap-ubuntu.sh        # users, dirs, firewall, PostgreSQL (loopback), binaries, units
 hashgramctl init --moniker <your-name>
-hashgramctl join-mainnet    # genesis, hash, seeds built in
-hashgramctl configure-role relay,store,media \
-  --reward-address hash1<a cold address you wrote down>
+hashgramctl join-mainnet                        # no arguments: genesis, hash and seeds are compiled in
+hashgramctl network-info                        # pin must read e322bc23…5e4d
+hashgramctl configure-role relay,store,media --reward-address hash1<a cold address you wrote down>
 hashgramctl start
+hashgramctl chain-status                        # wait for catching_up = false
 ```
 
-<sub>Bond 1,000 HASH to register as a provider. <code>hashgramctl rewards</code> shows credit and payouts. To become a validator: <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/MAINNET.md">docs/MAINNET.md</a>.</sub>
+<sub>Fund the operator address with ≥ 1,000 HASH (the provider bond) and <code>hashgramctl rewards &lt;operator&gt;</code> shows credit and payouts. To become a validator: <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/MAINNET.md">docs/MAINNET.md</a>. Never copy <code>priv_validator_key.json</code> between machines.</sub>
 
-</td>
-<td valign="top" width="50%">
-
-**Build on it**
-
-The Rust SDK covers account, link, messaging, social, blob and calls. The iOS and Android specifications are complete build prompts that name only endpoints that exist.
+**🧑‍💻 Build on it.** The Rust SDK covers account, link, messaging, social, blob and calls. The iOS and Android specifications are complete build prompts that name only endpoints that exist — `scripts/dev/check-docs.sh` fails otherwise.
 
 ```bash
 export HASHGRAM_PASSPHRASE=throwaway
 hashgram-client configure --network mainnet \
-  --genesis-hash e322bc2319f6e0173286fa526dab5a8f\
-f8ad0797c7b80dd03e7c9d98621d5e4d
-hashgram-client net peers   # finds nodes via built-in seeds
+  --genesis-hash e322bc2319f6e0173286fa526dab5a8ff8ad0797c7b80dd03e7c9d98621d5e4d
+hashgram-client net peers                       # finds nodes through the compiled-in seed list
 ```
 
 <sub><a href="https://github.com/deepdrogo/hashgram/blob/main/docs/CLIENT_CONNECTIVITY_SPEC.md">Client connectivity spec</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_IOS_APP.md">iOS</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_ANDROID_APP.md">Android</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a> · <a href="https://github.com/deepdrogo/hashgram/tree/main/sdk/rust/hashgram-sdk">SDK source</a></sub>
 
-</td>
-</tr>
-</table>
-
-**Or simply use it.** Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number. Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.
+**🕊️ Or simply use it.** Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number. Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.
 
 ### 📋 Status — honest
 
