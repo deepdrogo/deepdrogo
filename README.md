@@ -310,18 +310,14 @@ Consensus carries **only what must be globally agreed**. Everything a person say
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
-flowchart LR
-  subgraph Chain["Layer 1 — hashgramd · Go · Cosmos SDK v0.53 / CometBFT v0.38"]
-    direction TB
-    C1["CometBFT consensus · ~4 s blocks"]
-    C2["bank · staking · gov · vesting"]
-    C3["x/founder · x/feerouter · x/treasury"]
-    C4["x/identity · x/username · x/network"]
-    C5["x/serviceproof — Proof of Useful Service"]
+flowchart TB
+  subgraph Clients["Clients — hashgram-sdk · Rust · Windows app today, iOS / Android specified"]
+    S1["Vault · 24-word keys · Argon2id"]
+    S2["Wallet · staking · @usernames"]
+    S3["Messaging · feed · reels · calls"]
   end
 
   subgraph P2P["Off-chain network — hashgram-node · Rust · libp2p"]
-    direction TB
     N1["Genesis-checking handshake"]
     N2["MLS mailboxes · store-and-forward"]
     N3["Signed social events · gossip"]
@@ -330,17 +326,18 @@ flowchart LR
     N6["Rewards agent · signed receipts"]
   end
 
-  subgraph Clients["Clients — hashgram-sdk · Rust"]
-    direction TB
-    S1["Vault · 24-word keys · Argon2id"]
-    S2["Wallet · staking · @usernames"]
-    S3["Messaging · feed · reels · calls"]
+  subgraph Chain["Layer 1 — hashgramd · Go · Cosmos SDK v0.53 / CometBFT v0.38"]
+    C1["CometBFT consensus · ~4 s blocks"]
+    C2["bank · staking · gov · vesting"]
+    C3["x/founder · x/feerouter · x/treasury"]
+    C4["x/identity · x/username · x/network"]
+    C5["x/serviceproof — Proof of Useful Service"]
   end
 
+  Clients -- "QUIC / TCP :26670 — messages, posts, media, calls" --> P2P
   Clients -- "REST / RPC — chain reads, tx broadcast" --> Chain
-  Clients -- "QUIC / TCP :26670" --> P2P
   P2P -- "receipts · challenges · registrations" --> Chain
-  Chain -- "identities · devices · names · params" --> P2P
+  Chain -. "identities · devices · names · params" .-> P2P
 ```
 
 <br/>
@@ -565,7 +562,7 @@ There is no waiting list and nobody to ask. Pick the way in that suits you:
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 **Run a node and earn**
 
@@ -576,47 +573,36 @@ git clone https://github.com/deepdrogo/hashgram
 cd hashgram
 sudo scripts/install/bootstrap-ubuntu.sh
 hashgramctl init --moniker <your-name>
-hashgramctl join-mainnet
+hashgramctl join-mainnet    # genesis, hash, seeds built in
 hashgramctl configure-role relay,store,media \
-  --reward-address hash1<cold address>
+  --reward-address hash1<a cold address you wrote down>
 hashgramctl start
 ```
 
-<sub>Bond 1,000 HASH to register as a provider. <code>hashgramctl rewards</code> shows credit and payouts. To validate: <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/MAINNET.md">docs/MAINNET.md</a>.</sub>
+<sub>Bond 1,000 HASH to register as a provider. <code>hashgramctl rewards</code> shows credit and payouts. To become a validator: <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/MAINNET.md">docs/MAINNET.md</a>.</sub>
 
 </td>
-<td valign="top" width="33%">
-
-**Use it**
-
-Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number.
-
-```text
-Ctrl+K  search
-Ctrl+L  lock the vault
-F1      help
-```
-
-<sub>Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.</sub>
-
-</td>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 **Build on it**
 
-The Rust SDK covers account, link, messaging, social, blob and calls. iOS and Android specifications are complete build prompts that name only endpoints that exist.
+The Rust SDK covers account, link, messaging, social, blob and calls. The iOS and Android specifications are complete build prompts that name only endpoints that exist.
 
 ```bash
+export HASHGRAM_PASSPHRASE=throwaway
 hashgram-client configure --network mainnet \
-  --genesis-hash e322bc23…5e4d
-hashgram-client net peers
+  --genesis-hash e322bc2319f6e0173286fa526dab5a8f\
+f8ad0797c7b80dd03e7c9d98621d5e4d
+hashgram-client net peers   # finds nodes via built-in seeds
 ```
 
-<sub><a href="https://github.com/deepdrogo/hashgram/blob/main/docs/CLIENT_CONNECTIVITY_SPEC.md">Client connectivity spec</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_IOS_APP.md">iOS</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_ANDROID_APP.md">Android</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a></sub>
+<sub><a href="https://github.com/deepdrogo/hashgram/blob/main/docs/CLIENT_CONNECTIVITY_SPEC.md">Client connectivity spec</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_IOS_APP.md">iOS</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_ANDROID_APP.md">Android</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a> · <a href="https://github.com/deepdrogo/hashgram/tree/main/sdk/rust/hashgram-sdk">SDK source</a></sub>
 
 </td>
 </tr>
 </table>
+
+**Or simply use it.** Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number. Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.
 
 ### 📋 Status — honest
 
