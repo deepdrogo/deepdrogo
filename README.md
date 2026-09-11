@@ -24,13 +24,13 @@
 
 Specialist in **cryptography**, **cybersecurity**, **quantum computing**, **backend engineering** and **blockchain** — and the founder of **Drogoz Network**, a Premium SaaS Network where premium software is rented monthly with transparent pricing, a dedicated manager and support that stays with you.
 
-Drogoz Network runs **14 live products** — from an unmetered AI workspace for developers and real-time face transformation, to a non-custodial crypto exchange, an outbound dialer that protects your numbers, enterprise email marketing, lead delivery, contact verification, endpoint management, Ethereum tooling, an always-free open-source task control center and an auditable cryptocurrency accounting platform for finance teams — with three more on the way. Every product can be seen live, for free, before you pay.
+Drogoz Network runs **15 live products** — from an unmetered AI workspace for developers and real-time face transformation, to a non-custodial crypto exchange, real-time crypto payment infrastructure, an outbound dialer that protects your numbers, enterprise email marketing, lead delivery, contact verification, endpoint management, Ethereum tooling, an always-free open-source task control center and an auditable cryptocurrency accounting platform for finance teams — with two more on the way. Every product can be seen live, for free, before you pay.
 
 <div align="center">
 
 <br/>
 
-<img src="https://img.shields.io/badge/16-Clients-000000?style=for-the-badge&labelColor=c9a855" alt="16 clients"/> <img src="https://img.shields.io/badge/14-Active%20services-000000?style=for-the-badge&labelColor=c9a855" alt="14 active services"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
+<img src="https://img.shields.io/badge/16-Clients-000000?style=for-the-badge&labelColor=c9a855" alt="16 clients"/> <img src="https://img.shields.io/badge/15-Active%20services-000000?style=for-the-badge&labelColor=c9a855" alt="15 active services"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
 
 <br/><br/>
 
@@ -160,6 +160,13 @@ Drogoz Network runs **14 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Compliance-c9a855?style=flat-square" alt="Compliance"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Standalone-1a1a1a?style=flat-square" alt="Standalone product — own account and balance"/><br/><br/>
 <sub><a href="https://drogscan.com/">Website</a> · <a href="https://t.me/DrogScanBot">Telegram</a> · <a href="https://github.com/deepdrogo/drogscan">Repo</a></sub>
 </td>
+<td align="center" valign="top" width="33%">
+<a href="https://github.com/deepdrogo/drogopay"><img src="assets/icons/drogopay.png" width="80" alt="DrogoPay"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/drogopay"><b>DrogoPay</b></a><br/>
+<sub>Real-time crypto payment infrastructure — hosted checkout, address-first detection, honest handling of wrong amounts, signed API and live settlement.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
+<sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay">Repo</a></sub>
+</td>
 </tr>
 </table>
 
@@ -169,7 +176,6 @@ Drogoz Network runs **14 live products** — from an unmetered AI workspace for 
 
 | Product | What it is | Status |
 |---|---|---|
-| **DrogoPay** | Crypto payments that move as fast as the blockchain does. | <img src="https://img.shields.io/badge/Coming%20soon-1a1a1a?style=flat-square" alt="Coming soon"/> |
 | **Delas** | A complete brokerage CRM platform designed for recovery teams. | <img src="https://img.shields.io/badge/Coming%20soon-1a1a1a?style=flat-square" alt="Coming soon"/> |
 | **Brokerix** | A complete brokerage CRM platform designed for clean offices. | <img src="https://img.shields.io/badge/Coming%20soon-1a1a1a?style=flat-square" alt="Coming soon"/> |
 
@@ -276,7 +282,7 @@ See any service in action before you pay — our agent gets in touch and walks y
   <b>Made by <a href="https://drogoz.network">Drogoz Network</a></b><br/>
   <sub>One network — all your services · Premium SaaS Network</sub>
   <br/><br/>
-  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a></sub>
+  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay">DrogoPay</a></sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>.</sub>
 </div>
