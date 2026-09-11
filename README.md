@@ -18,7 +18,7 @@
 
 <div align="center">
 
-## Drogoz — founder of <a href="https://drogoz.network">Drogoz Network</a>
+## Drogoz — founder of <a href="https://drogoz.network">Drogoz Network</a> &amp; <a href="https://hashgram.io">Hashgram</a>
 
 </div>
 
@@ -216,6 +216,451 @@ See any service in action before you pay — our agent gets in touch and walks y
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
+<br/>
+
+<div align="center">
+<a href="https://hashgram.io"><img src="assets/hashgram/banner.svg" width="100%" alt="Hashgram — a Layer-1 network with a fixed supply, end-to-end encrypted messaging, a signed social layer and no central point of control"/></a>
+</div>
+
+## 🕊️ Hashgram — a project for people, not a service
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Not%20a%20service-ffffff?style=for-the-badge" alt="Not a service"/>
+<img src="https://img.shields.io/badge/Open%20source-Apache--2.0-1a1a1a?style=for-the-badge&labelColor=0d0d0d" alt="Apache-2.0"/>
+<img src="https://img.shields.io/badge/Mainnet-live%20since%202026--09--10-1a1a1a?style=for-the-badge&labelColor=0d0d0d" alt="Mainnet live"/>
+<img src="https://img.shields.io/badge/Supply-1%2C000%2C000%2C000%20HASH%20%C2%B7%20fixed-1a1a1a?style=for-the-badge&labelColor=0d0d0d" alt="Fixed supply"/>
+<img src="https://img.shields.io/badge/Accounts-24%20words%20%C2%B7%20no%20e--mail%2C%20no%20phone-1a1a1a?style=for-the-badge&labelColor=0d0d0d" alt="No sign-up"/>
+<img src="https://img.shields.io/badge/Price-free%2C%20forever-1a1a1a?style=for-the-badge&labelColor=0d0d0d" alt="Free"/>
+
+<br/><br/>
+
+<a href="https://hashgram.io"><img src="https://img.shields.io/badge/hashgram.io%20%E2%80%94%20live%20explorer-ffffff?style=for-the-badge&logoColor=black" alt="hashgram.io"/></a>
+<a href="https://github.com/deepdrogo/hashgram_windows/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-1a1a1a?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows"/></a>
+<a href="https://github.com/deepdrogo/hashgram"><img src="https://img.shields.io/badge/Core%20%E2%80%94%20chain%2C%20node%2C%20SDK-1a1a1a?style=for-the-badge&logo=github&logoColor=white" alt="Core repository"/></a>
+<a href="https://github.com/deepdrogo/hashgram_io"><img src="https://img.shields.io/badge/Explorer%20source-1a1a1a?style=for-the-badge&logo=github&logoColor=white" alt="Explorer source"/></a>
+<a href="https://hashgram.io/docs"><img src="https://img.shields.io/badge/Docs-1a1a1a?style=for-the-badge" alt="Docs"/></a>
+<a href="https://hashgram.io/api/v1/docs"><img src="https://img.shields.io/badge/API-1a1a1a?style=for-the-badge" alt="API"/></a>
+
+</div>
+
+<br/>
+
+> **Please read this line first.** Everything above this banner is Drogoz Network — software you rent, with a manager, a price and an SLA. **Hashgram is none of those things.** It is not in the catalogue, it has no price, no manager, no client panel and no support contract. Nothing is hosted *for* you. It is an open-source network that I designed and built in my own time and released to everyone under Apache-2.0, because I believe people deserve a place to talk, to publish and to hold value that no company — including mine — can switch off, read, or take away.
+>
+> It is made with love. It belongs to whoever chooses to run it.
+
+### 🌱 Why it was created
+
+I have spent my career in cryptography and security, and I have watched the same pattern repeat: a network starts as a promise of freedom and ends as a database with a terms-of-service page. The messages are readable by the operator. The account can be frozen. The supply can be printed. The rules can be changed on a Tuesday, and the "community" finds out on Wednesday.
+
+Hashgram is my answer to that pattern. It is built around three freedoms that are **enforced by code, not by policy**:
+
+<table>
+<tr>
+<td align="center" valign="top" width="33%">
+<br/><img src="assets/hashgram/logo-white-on-black-256.png" width="44" alt=""/><br/><br/>
+<b>Freedom to hold</b><br/><br/>
+<sub>1,000,000,000 HASH, created once in the genesis block. The mint module is not "set to zero" — it is <b>not compiled into the binary</b>. Nobody can print more, tax a transfer, freeze a balance or reverse a payment. There is no transaction type that does these things.</sub><br/><br/>
+</td>
+<td align="center" valign="top" width="33%">
+<br/><img src="assets/hashgram/logo-white-on-black-256.png" width="44" alt=""/><br/><br/>
+<b>Freedom to speak</b><br/><br/>
+<sub>Private messages are <b>end-to-end encrypted with MLS</b>. Nodes carry ciphertext and sizes, never plaintext — an acceptance test greps their databases to prove it. Public posts are signed by your own device keys and verified by every reader; a node can refuse to relay, it can never forge.</sub><br/><br/>
+</td>
+<td align="center" valign="top" width="33%">
+<br/><img src="assets/hashgram/logo-white-on-black-256.png" width="44" alt=""/><br/><br/>
+<b>Freedom to be anonymous</b><br/><br/>
+<sub>An account is <b>24 words</b>. No e-mail, no phone number, no password database, no sign-up server. People find you by public key or by an optional on-chain <code>@username</code>. Nodes log no full IP addresses (truncated to /24 or /48) and no content — the logging policy is part of the protocol, not a promise.</sub><br/><br/>
+</td>
+</tr>
+</table>
+
+And a fourth principle that holds the other three together: **honesty**. The documentation is written from the code, and where something is not built, it says so in plain words. `docs/DECENTRALIZATION.md` is a list of where control *still* sits today — one implementation, one seed operator, a founder who wrote the code and holds a vesting allocation. I would rather publish that list than pretend it is empty.
+
+### 🧭 What Hashgram is
+
+**A Layer-1 network with a fixed supply, a finite reward reserve, end-to-end encrypted messaging, a signed social layer, and no central point of control.** Three ideas hold it together:
+
+| | Idea | What it means in practice |
+|:-:|---|---|
+| **1** | **The chain decides who owns what** | Coins, identities, device keys, `@usernames`, provider bonds — and it settles rewards. It is small and boring on purpose. Message content never touches the chain. |
+| **2** | **The node network moves bytes** | Encrypted messages, public posts, media and calls travel peer-to-peer over libp2p. Nodes are paid from a finite reserve for **useful service** — bytes actually stored, relayed and served — on evidence the served client signed. There is no mining. |
+| **3** | **The client trusts nobody for content** | Every blob is hash-checked, every social event is signature-checked against on-chain device keys, every message is authenticated by MLS. Nodes are interchangeable providers of availability, nothing more. |
+
+### 🔒 What the code makes impossible
+
+These are not policies. There is no transaction that does them and no code path that reaches them. Changing any of them requires a **new binary that the validator set consciously adopts** — deliberately the only bar available.
+
+| Impossible | Why |
+|---|---|
+| Create new HASH | `x/mint` is not wired into the application; no module account holds the `Minter` permission — a test asserts both |
+| Tax a transfer | Send 100 HASH, the recipient gets exactly 100 HASH. The fee router only ever touches fees the protocol already collected |
+| Raise the founder share above 1 % of **fee revenue** | Compile-time ceiling of 100 basis points; `Validate` rejects a higher value, so the proposal fails |
+| Freeze or seize an account | No admin module, no blacklist, no such message type |
+| Reverse a confirmed transfer | No such message type |
+| Disable a message type | `x/circuit`, which exists in the SDK for exactly this, is deliberately not wired in |
+| Recover an account administratively | No component holds a user's private key — ever |
+| Read a private message from a server | MLS end-to-end encryption; store nodes hold ciphertext only |
+| Silently route a node onto a different chain | The genesis hash `e322bc23…5e4d` is compiled into every binary and checked on every handshake; a mismatch is "wrong network", never a peer |
+
+### 🏗️ Architecture
+
+Consensus carries **only what must be globally agreed**. Everything a person says, posts or shares travels off-chain, peer-to-peer, encrypted — because putting messages on a chain makes them permanent, public and replicated forever, which is the wrong trade for a messenger.
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+flowchart LR
+  subgraph Chain["Layer 1 — hashgramd · Go · Cosmos SDK v0.53 / CometBFT v0.38"]
+    direction TB
+    C1["CometBFT consensus · ~4 s blocks"]
+    C2["bank · staking · gov · vesting"]
+    C3["x/founder · x/feerouter · x/treasury"]
+    C4["x/identity · x/username · x/network"]
+    C5["x/serviceproof — Proof of Useful Service"]
+  end
+
+  subgraph P2P["Off-chain network — hashgram-node · Rust · libp2p"]
+    direction TB
+    N1["Genesis-checking handshake"]
+    N2["MLS mailboxes · store-and-forward"]
+    N3["Signed social events · gossip"]
+    N4["Content-addressed media · storage challenges"]
+    N5["Call discovery · TURN / SFU"]
+    N6["Rewards agent · signed receipts"]
+  end
+
+  subgraph Clients["Clients — hashgram-sdk · Rust"]
+    direction TB
+    S1["Vault · 24-word keys · Argon2id"]
+    S2["Wallet · staking · @usernames"]
+    S3["Messaging · feed · reels · calls"]
+  end
+
+  Clients -- "REST / RPC — chain reads, tx broadcast" --> Chain
+  Clients -- "QUIC / TCP :26670" --> P2P
+  P2P -- "receipts · challenges · registrations" --> Chain
+  Chain -- "identities · devices · names · params" --> P2P
+```
+
+<br/>
+
+<details>
+<summary><b>✉️ A message, end to end</b> — what a node sees, and what it never sees</summary>
+<br/>
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'actorBkg': '#1a1a1a', 'actorBorder': '#808080', 'actorTextColor': '#ffffff', 'signalColor': '#cfcfcf', 'signalTextColor': '#cfcfcf', 'noteBkgColor': '#0d0d0d', 'noteTextColor': '#ffffff', 'noteBorderColor': '#404040', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+sequenceDiagram
+  participant A as Alice's app (SDK)
+  participant SA as store node(s)
+  participant Chain as hashgramd
+  participant B as Bob's app (SDK)
+
+  A->>Chain: resolve Bob's devices (x/identity)
+  A->>SA: fetch Bob's MLS key packages
+  A->>A: MLS-encrypt for Bob's devices
+  A->>SA: deliver envelope to Bob's mailbox shard
+  A->>SA: signed relay receipt (bytes, epoch, nonce)
+  SA->>Chain: MsgSubmitReceipts (batched)
+  B->>SA: poll mailbox (any store holding the shard)
+  SA-->>B: envelope
+  B->>B: MLS-decrypt · authenticate
+  Note over A,B: Nodes see ciphertext and sizes. Plaintext never leaves the apps' encrypted vaults.
+```
+
+</details>
+
+<details>
+<summary><b>💸 Where a fee goes</b> — and why the principal is never touched</summary>
+<br/>
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+flowchart LR
+  TX["transaction fee<br/>gas · username fee · service fees"] --> FR["x/feerouter"]
+  FR -->|"1 % — 100 bps, hardcoded ceiling"| FO["x/founder ledger<br/>paid every 7,200 blocks"]
+  FR -->|"remainder"| DI["distribution<br/>validators + delegators"]
+  P["transferred principal"] -->|"100 % — untouched"| RC["recipient"]
+```
+
+</details>
+
+<details>
+<summary><b>🔑 Keys</b> — one mnemonic, many devices, no server in the loop</summary>
+<br/>
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+flowchart TB
+  M["24-word mnemonic (256-bit)<br/>never on a server, never in a chat"] --> W["wallet key<br/>m/44'/118'/0'/0/0 → hash1…"]
+  W --> ID["on-chain identity (x/identity)<br/>root key + device certificates — public keys only"]
+  ID --> D1["device key: this PC"]
+  ID --> D2["device key: phone"]
+  D1 --> MLS["MLS leaf keys · social event signatures"]
+  W -.->|"optional"| UN["@username (x/username)<br/>1 HASH · ~1 year · 30-day grace"]
+```
+
+</details>
+
+<details>
+<summary><b>🧩 How a brand-new node finds the network</b> — the same five layers Bitcoin uses</summary>
+<br/>
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#808080', 'lineColor': '#808080', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+flowchart LR
+  A["fresh machine<br/>hashgramctl join-mainnet"] --> B{"peerstore on disk?"}
+  B -- yes --> E["dial known peers"]
+  B -- no --> C["seeds compiled into the binary"]
+  C --> D2["DNS seeds"]
+  D2 --> F["anything passed by hand"]
+  E --> G["handshake: network id · chain id ·<br/>magic HGM1 · protocol version · genesis hash"]
+  C --> G
+  F --> G
+  G -- match --> H["PEX + Kademlia: learn the rest"]
+  G -- mismatch --> X["'wrong network' — listed, never retried silently"]
+  H --> I2["persist peerstore — never needs the built-in list again"]
+```
+
+A blocked or hijacked seed can withhold peers from a brand-new node; it can **never** route it onto a different chain.
+
+</details>
+
+### 🪙 Mainnet at a glance
+
+<table>
+<tr>
+<td align="center" valign="top" width="25%"><br/><b>hashgram-1</b><br/><sub>chain id · launched 2026-09-10 13:01:34 UTC</sub><br/><br/></td>
+<td align="center" valign="top" width="25%"><br/><b>1,000,000,000 HASH</b><br/><sub>fixed · 1 HASH = 1,000,000 uhash · no mint module</sub><br/><br/></td>
+<td align="center" valign="top" width="25%"><br/><b>~4 s</b><br/><sub>block time · CometBFT v0.38 · bech32 <code>hash</code> · coin type 118</sub><br/><br/></td>
+<td align="center" valign="top" width="25%"><br/><b>e322bc23…5e4d</b><br/><sub>genesis SHA-256, compiled into every Go and Rust binary</sub><br/><br/></td>
+</tr>
+</table>
+
+| | |
+|---|---|
+| **Consensus** | Cosmos SDK v0.53 / CometBFT v0.38 · eight custom modules · `x/mint` and `x/circuit` excluded on purpose |
+| **Governance** | Voting period 7 days · quorum 40 % · threshold 50 % · veto 33.4 % · unbonding 21 days |
+| **Founder share** | **1 % of protocol fee revenue** — never of transfers — paid every 7,200 blocks, ceiling hardcoded at 100 bps |
+| **Reward reserve** | **500,000,000 HASH** at genesis, finite, cannot be topped up. Budget per epoch = `min(remaining × 5 / 10,000, 250,000 HASH)`; a single provider may take at most 5 % |
+| **Node roles** | validator · relay · store · media · bootstrap · call · indexer · safety — one machine can run several |
+| **Join** | `hashgramctl join-mainnet` — no arguments: genesis, hash and seeds are built in |
+
+<details>
+<summary><b>Genesis distribution</b> — every number is a compile-time constant, not a governance parameter</summary>
+<br/>
+
+| Allocation | HASH | Share | Held by |
+|---|---:|---:|---|
+| Useful-service reserve | 500,000,000 | 50 % | `x/serviceproof` — paid only for real bytes stored, relayed and served |
+| Founder | 200,000,000 | 20 % | 20M spendable · 180M vesting monthly over **eight years** |
+| Treasury | 150,000,000 | 15 % | spendable only by governance proposal |
+| Growth | 50,000,000 | 5 % | includes the 1,850,000 HASH welcome pool |
+| Developer grants | 50,000,000 | 5 % | governance only |
+| Liquidity | 50,000,000 | 5 % | governance only |
+
+Emission from the reserve asymptotes rather than hitting a cliff: ≈ 16.7 % paid out after 1 year, ≈ 59.9 % after 5 years, ≈ 83.9 % after 10 years — and only if the bytes were actually served. Unearned budget stays in the reserve.
+
+</details>
+
+### 📦 Three public repositories
+
+Everything a node runs is public. Everything a client needs is public. Nothing is hidden behind a service.
+
+<table>
+<tr>
+<td align="center" valign="top" width="33%">
+<a href="https://github.com/deepdrogo/hashgram"><img src="assets/hashgram/logo-white-on-black-256.png" width="72" alt="Hashgram Core"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/hashgram"><b>hashgram</b></a> — Core<br/>
+<sub>The blockchain (Go, Cosmos SDK / CometBFT), the peer-to-peer node (Rust, libp2p, OpenMLS), the client SDK (Rust), the indexer and safety engine (Go), operator tooling, hardened systemd units, Grafana dashboards and the genesis that launched Mainnet.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Go-1a1a1a?style=flat-square&logo=go&logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/libp2p-1a1a1a?style=flat-square" alt="libp2p"/> <img src="https://img.shields.io/badge/MLS-1a1a1a?style=flat-square" alt="MLS"/><br/><br/>
+<sub><a href="https://github.com/deepdrogo/hashgram#quick-start">Run a node</a> · <a href="https://github.com/deepdrogo/hashgram/tree/main/docs">Docs</a> · <a href="https://github.com/deepdrogo/hashgram/tree/main/sdk/rust/hashgram-sdk">SDK</a></sub>
+</td>
+<td align="center" valign="top" width="33%">
+<a href="https://github.com/deepdrogo/hashgram_io"><img src="assets/hashgram/logo-white-on-black-256.png" width="72" alt="hashgram.io"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/hashgram_io"><b>hashgram_io</b></a> — Explorer<br/>
+<sub>The official live explorer, network dashboard and rendered documentation at <a href="https://hashgram.io">hashgram.io</a>. SolidJS + Vite, strict seven-colour monochrome, read-only, no cookies, no analytics, no third-party scripts. Runs on its own full node and pins the genesis hash — if the API ever served a different chain, the site disables itself.</sub><br/><br/>
+<img src="https://img.shields.io/badge/SolidJS-1a1a1a?style=flat-square&logo=solid&logoColor=white" alt="SolidJS"/> <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Caddy-1a1a1a?style=flat-square" alt="Caddy"/> <img src="https://img.shields.io/badge/Lighthouse%20100%2F100%2F100%2F100-1a1a1a?style=flat-square" alt="Lighthouse"/><br/><br/>
+<sub><a href="https://hashgram.io">Website</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a> · <a href="https://hashgram.io/brand">Brand kit</a></sub>
+</td>
+<td align="center" valign="top" width="33%">
+<a href="https://github.com/deepdrogo/hashgram_windows"><img src="assets/hashgram/logo-white-on-black-256.png" width="72" alt="Hashgram for Windows"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/hashgram_windows"><b>hashgram_windows</b></a> — Windows app<br/>
+<sub>Wallet, messenger (MLS), feed, reels, channels, calls, identity, Founder and Supply views, Network panel and <b>Earn</b> — run a node from your own PC. Tauri 2 + Rust + SolidJS. Encrypted vault (Argon2id, XChaCha20-Poly1305), Windows Hello unlock, self-updates from GitHub Releases verified by a compiled-in minisign key.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Tauri%202-1a1a1a?style=flat-square&logo=tauri&logoColor=white" alt="Tauri"/> <img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Windows%2010%2F11%20x64-1a1a1a?style=flat-square&logo=windows&logoColor=white" alt="Windows"/><br/><br/>
+<sub><a href="https://github.com/deepdrogo/hashgram_windows/releases/latest">Download</a> · <a href="https://github.com/deepdrogo/hashgram_windows/tree/main/apps/desktop">Source</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_DESKTOP_AI.md">Spec</a></sub>
+</td>
+</tr>
+</table>
+
+### 🖥️ hashgram.io — the official window into the network
+
+hashgram.io is where anyone can **watch the decentralised system as it runs** — block by block, in real time. It is trusted for the same reason the network is: it runs on its own full node that joined Mainnet through the compiled-in seed list like any other node, it is read-only (no wallet, no keys, no accounts, no analytics), and every number on it is reproducible from the chain by anyone who runs `hashgram-indexer rebuild`. Anyone can run their own copy. hashgram.io is the official one; it is not the only possible one — and that is the point.
+
+<table>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io"><img src="assets/hashgram/hashgram-io-home.png" alt="hashgram.io home"/></a><br/><sub><b>Home</b> — live height, chain facts, key statistics with 24-hour sparklines and the epoch progress bar. Search by height, tx hash, address, <code>@username</code>, validator or peer id.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/blocks"><img src="assets/hashgram/hashgram-io-blocks.png" alt="Blocks"/></a><br/><sub><b>Blocks</b> — live-prepending list; proposer, gas, size and signatures present / missing for every block.</sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io/txs"><img src="assets/hashgram/hashgram-io-transactions.png" alt="Transactions"/></a><br/><sub><b>Transactions</b> — decoded by the chain's own codec; every fee split into validators / founder 1 % / treasury, so the "no transfer tax" claim is visible on every row.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/accounts"><img src="assets/hashgram/hashgram-io-accounts.png" alt="Accounts"/></a><br/><sub><b>Accounts</b> — top holders with every module and reserve account labelled, spendable vs. vesting, share of supply.</sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io/validators"><img src="assets/hashgram/hashgram-io-validators.png" alt="Validators"/></a><br/><sub><b>Validators</b> — voting-power distribution, the ⅔ liveness and ⅓ halting sets, uptime strips of the last 120 blocks.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/rewards"><img src="assets/hashgram/hashgram-io-rewards.png" alt="Rewards"/></a><br/><sub><b>Rewards — how nodes earn.</b> The 500,000,000 HASH reserve, this epoch's budget and per-provider cap, the exact emission rule projected 1 / 5 / 10 years. <i>There is no mining.</i></sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io/founder"><img src="assets/hashgram/hashgram-io-founder.png" alt="Founder"/></a><br/><sub><b>Founder — transparency.</b> What the founder receives and does <i>not</i> receive, read live from the chain: the 96-step vesting chart, accrued / paid / pending fee share, payout history.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/governance"><img src="assets/hashgram/hashgram-io-governance.png" alt="Governance"/></a><br/><sub><b>Governance</b> — proposals with tally bars against quorum, decoded messages with parameter diffs, votes and timeline.</sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io/network"><img src="assets/hashgram/hashgram-io-network.png" alt="Network"/></a><br/><sub><b>Network</b> — consensus peers, libp2p peers and validators as three honest numbers, never one invented total; peer tables with /24 prefixes only; the built-in seeds.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/status"><img src="assets/hashgram/hashgram-io-status.png" alt="Status"/></a><br/><sub><b>Status</b> — node sync, indexer lag, event-stream state and the genesis pin check. Nothing here is an estimate.</sub></td>
+</tr>
+<tr>
+<td align="center" width="50%"><a href="https://hashgram.io/docs"><img src="assets/hashgram/hashgram-io-docs.png" alt="Docs"/></a><br/><sub><b>Docs</b> — the repository's documentation rendered with navigation, full-text search and source commit — written from the code, saying "not built" where it is not.</sub></td>
+<td align="center" width="50%"><a href="https://hashgram.io/brand"><img src="assets/hashgram/hashgram-io-brand.png" alt="Brand"/></a><br/><sub><b>Brand</b> — the mark, wordmark and seven-colour palette, free to use unmodified to refer to Hashgram, downloadable as one kit.</sub></td>
+</tr>
+</table>
+
+<div align="center">
+<br/>
+<sub><b>Designed for phones first</b> — stat grids collapse to two columns, tables become labelled cards, and a Playwright suite checks every route at iPhone size for overflow.</sub>
+<br/><br/>
+<a href="https://hashgram.io"><img src="assets/hashgram/hashgram-io-mobile-home.png" width="220" alt="Home on a phone"/></a>&nbsp;&nbsp;&nbsp;
+<a href="https://hashgram.io/rewards"><img src="assets/hashgram/hashgram-io-mobile-rewards.png" width="220" alt="Rewards on a phone"/></a>&nbsp;&nbsp;&nbsp;
+<a href="https://hashgram.io/txs"><img src="assets/hashgram/hashgram-io-mobile-transactions.png" width="220" alt="Transactions on a phone"/></a>
+<br/><br/>
+</div>
+
+### 🪟 Hashgram for Windows
+
+One application that talks to the Hashgram peer-to-peer network — **never to one server**.
+
+| | |
+|---|---|
+| **Wallet** | Send, receive, stake and delegate HASH. Register an `@username`. Every amount is exact integer `uhash` — no floats, no rounding. |
+| **Messenger** | MLS end-to-end encrypted one-to-one and group chats, delivered through interchangeable store nodes. Nodes see ciphertext and sizes only. |
+| **Feed · Reels · Channels** | Public posts, short videos and channels as signed social events, verified against on-chain device keys by every reader. |
+| **Calls** | Audio and video via TURN credentials issued by call nodes; E2EE signalling. |
+| **Identity** | A 24-word account. Login *is* restore. Add devices with certificates, recover socially with a delay. A display name is never shown without the verified `@username` or address. |
+| **Earn** | Run a relay / store / media node from your own PC and be paid from the reserve for bytes you actually serve. |
+| **Security** | Encrypted vault (Argon2id, XChaCha20-Poly1305 sealed columns), DPAPI + Windows Hello unlock, nothing plaintext on disk, no hardcoded server address anywhere. |
+| **Updates** | Self-updates from GitHub Releases; only manifests signed by the project's compiled-in minisign key are accepted. |
+
+<div align="center">
+<br/>
+<a href="https://github.com/deepdrogo/hashgram_windows/releases/latest"><img src="https://img.shields.io/badge/Download%20Hashgram%20for%20Windows-ffffff?style=for-the-badge&logo=windows&logoColor=black" alt="Download for Windows"/></a>
+<a href="https://github.com/deepdrogo/hashgram_windows/releases/latest/download/SHA256SUMS.txt"><img src="https://img.shields.io/badge/SHA256SUMS.txt-1a1a1a?style=for-the-badge" alt="Checksums"/></a>
+<br/><br/>
+<sub>Per-user installer, no administrator prompt. Not yet Authenticode-signed, so Windows SmartScreen will warn on first run — verify the SHA-256 against <code>SHA256SUMS.txt</code>. That is the honest state today, not a hidden one.</sub>
+<br/><br/>
+</div>
+
+### 🚀 Take part
+
+There is no waiting list and nobody to ask. Pick the way in that suits you:
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Run a node and earn**
+
+Ubuntu Server 24.04, a public IPv4, ports 26656 and 26670 open.
+
+```bash
+git clone https://github.com/deepdrogo/hashgram
+cd hashgram
+sudo scripts/install/bootstrap-ubuntu.sh
+hashgramctl init --moniker <your-name>
+hashgramctl join-mainnet
+hashgramctl configure-role relay,store,media \
+  --reward-address hash1<cold address>
+hashgramctl start
+```
+
+<sub>Bond 1,000 HASH to register as a provider. <code>hashgramctl rewards</code> shows credit and payouts. To validate: <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/MAINNET.md">docs/MAINNET.md</a>.</sub>
+
+</td>
+<td valign="top" width="33%">
+
+**Use it**
+
+Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number.
+
+```text
+Ctrl+K  search
+Ctrl+L  lock the vault
+F1      help
+```
+
+<sub>Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.</sub>
+
+</td>
+<td valign="top" width="33%">
+
+**Build on it**
+
+The Rust SDK covers account, link, messaging, social, blob and calls. iOS and Android specifications are complete build prompts that name only endpoints that exist.
+
+```bash
+hashgram-client configure --network mainnet \
+  --genesis-hash e322bc23…5e4d
+hashgram-client net peers
+```
+
+<sub><a href="https://github.com/deepdrogo/hashgram/blob/main/docs/CLIENT_CONNECTIVITY_SPEC.md">Client connectivity spec</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_IOS_APP.md">iOS</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_ANDROID_APP.md">Android</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a></sub>
+
+</td>
+</tr>
+</table>
+
+### 📋 Status — honest
+
+| Component | State |
+|---|---|
+| Mainnet `hashgram-1` | **Live since 2026-09-10.** One genesis validator today; more are needed — with equal stake, four validators is the first configuration that survives losing one |
+| Blockchain, eight modules, genesis tooling | Complete, tested, running |
+| `hashgram-node`, `hashgram-sdk`, `hashgram-client` | Complete; 63 network-level acceptance checks pass |
+| hashgram.io explorer, indexer, safety engine | Complete and live |
+| Hashgram for Windows | **v0.1.0 released** — first public build, self-updating |
+| Useful-service rewards | Live: reserve funded, first provider registered |
+| iOS / Android apps, push notifications, SFU group-call E2EE, token bridge | Not built — specifications exist, and the docs say so |
+
+I publish this table because a decentralised network with one validator is a design, not yet a deployment. The code makes the important things impossible; the deployment becomes resilient only when **independent people in different places** run it. If that is you — welcome.
+
+### 🎨 Brand
+
+<div align="center">
+<br/>
+<img src="assets/hashgram/logo-white-on-black-256.png" width="96" alt="Hashgram mark, white on black"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/hashgram/wordmark-white.svg" width="330" alt="hashgram wordmark"/>
+<br/><br/>
+<sub>A heavy <code>#</code> — four strokes on a 64-unit grid with the four intersections knocked out: the negative-space squares read as blocks, the strokes as the chain that links them. One colour, no gradients. Strict monochrome palette of seven values, <code>#000000</code> → <code>#FFFFFF</code>. The full kit is free at <a href="https://hashgram.io/brand">hashgram.io/brand</a>.</sub>
+<br/><br/>
+</div>
+
+<div align="center">
+
+<a href="https://hashgram.io"><img src="https://img.shields.io/badge/hashgram.io-ffffff?style=for-the-badge&logoColor=black" alt="hashgram.io"/></a>
+<a href="https://github.com/deepdrogo/hashgram"><img src="https://img.shields.io/badge/Core-1a1a1a?style=for-the-badge&logo=github&logoColor=white" alt="Core"/></a>
+<a href="https://github.com/deepdrogo/hashgram_io"><img src="https://img.shields.io/badge/Explorer-1a1a1a?style=for-the-badge&logo=github&logoColor=white" alt="Explorer"/></a>
+<a href="https://github.com/deepdrogo/hashgram_windows"><img src="https://img.shields.io/badge/Windows%20app-1a1a1a?style=for-the-badge&logo=github&logoColor=white" alt="Windows app"/></a>
+<a href="https://github.com/deepdrogo/hashgram/security/policy"><img src="https://img.shields.io/badge/Report%20a%20vulnerability%20privately-1a1a1a?style=for-the-badge" alt="Security policy"/></a>
+
+<br/><br/>
+
+<sub><b>Hashgram is free software under Apache-2.0.</b> It is not a Drogoz Network product, it has no price and no support contract, and nothing about it is for sale. It exists so that ordinary people have one place where their money, their words and their names are theirs — made with love, for everyone.</sub>
+
+</div>
+
+<br/>
+
+<img src="assets/divider.svg" width="100%" height="4" alt=""/>
+
 ## 🧰 Tech stack
 
 <div align="center">
@@ -283,6 +728,8 @@ See any service in action before you pay — our agent gets in touch and walks y
   <sub>One network — all your services · Premium SaaS Network</sub>
   <br/><br/>
   <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a></sub>
+  <br/><br/>
+  <sub>Open project, not a service · <a href="https://hashgram.io">Hashgram</a> — <a href="https://github.com/deepdrogo/hashgram">Core</a> · <a href="https://github.com/deepdrogo/hashgram_io">Explorer</a> · <a href="https://github.com/deepdrogo/hashgram_windows">Windows app</a> · Apache-2.0</sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>.</sub>
 </div>
