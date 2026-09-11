@@ -161,11 +161,11 @@ Drogoz Network runs **15 live products** — from an unmetered AI workspace for 
 <sub><a href="https://drogscan.com/">Website</a> · <a href="https://t.me/DrogScanBot">Telegram</a> · <a href="https://github.com/deepdrogo/drogscan">Repo</a></sub>
 </td>
 <td align="center" valign="top" width="33%">
-<a href="https://github.com/deepdrogo/drogopay"><img src="assets/icons/drogopay.png" width="80" alt="DrogoPay"/></a><br/><br/>
-<a href="https://github.com/deepdrogo/drogopay"><b>DrogoPay</b></a><br/>
+<a href="https://github.com/deepdrogo/drogopay-com"><img src="assets/icons/drogopay.png" width="80" alt="DrogoPay"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/drogopay-com"><b>DrogoPay</b></a><br/>
 <sub>Real-time crypto payment infrastructure — hosted checkout, address-first detection, honest handling of wrong amounts, signed API and live settlement.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
-<sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay">Repo</a></sub>
+<sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay-com">Repo</a></sub>
 </td>
 </tr>
 </table>
@@ -282,7 +282,7 @@ See any service in action before you pay — our agent gets in touch and walks y
   <b>Made by <a href="https://drogoz.network">Drogoz Network</a></b><br/>
   <sub>One network — all your services · Premium SaaS Network</sub>
   <br/><br/>
-  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay">DrogoPay</a></sub>
+  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a></sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>.</sub>
 </div>
