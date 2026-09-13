@@ -484,7 +484,7 @@ Everything a node runs is public. Everything a client needs is public. Nothing i
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/hashgram_windows"><img src="assets/hashgram/logo-white-on-black-256.png" width="72" alt="Hashgram for Windows"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/hashgram_windows"><b>hashgram_windows</b></a> — Windows app<br/>
-<sub>Hashgram One v0.2.0: encrypted Mail and Drive, People, Feed, private Circles, role-based Spaces, <b>Earn</b>, Wallet, Network and Settings. Tauri 2 + Rust + SolidJS. Encrypted vault, Windows Hello unlock and signed self-updates.</sub><br/><br/>
+<sub>Hashgram One v0.2.1: encrypted Mail and Drive, People, Feed, private Circles, role-based Spaces, <b>Earn</b>, Wallet, Network and Settings. Tauri 2 + Rust + SolidJS. Encrypted vault, automatic P2P recovery, Windows Hello unlock and signed self-updates.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Tauri%202-1a1a1a?style=flat-square&logo=tauri&logoColor=white" alt="Tauri"/> <img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Windows%2010%2F11%20x64-1a1a1a?style=flat-square&logo=windows&logoColor=white" alt="Windows"/><br/><br/>
 <sub><a href="https://github.com/deepdrogo/hashgram_windows/releases/latest">Download</a> · <a href="https://github.com/deepdrogo/hashgram_windows/tree/main/apps/desktop">Source</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_DESKTOP_AI.md">Spec</a></sub>
 </td>
@@ -546,7 +546,7 @@ One application that talks to the Hashgram peer-to-peer network — **never to o
 | **Wallet** | Send, receive and stake HASH; manage usernames and devices. Every amount remains an integer string — no floats, no rounding. |
 | **Network** | Connected and rejected peers, chain height, pinned genesis, supply, provider reserve and privacy-safe diagnostics. |
 | **Security** | Argon2id + XChaCha20 vault, DPAPI/Windows Hello unlock, MLS payloads, sealed local caches and a typed Tauri boundary that never returns secret keys to the webview. |
-| **Updates** | v0.2.0 self-updates from GitHub Releases; only manifests and packages verified against the compiled-in minisign key are accepted. |
+| **Updates** | v0.2.1 self-updates from GitHub Releases; only manifests and packages verified against the compiled-in minisign key are accepted. |
 
 <table>
 <tr>
@@ -560,7 +560,7 @@ One application that talks to the Hashgram peer-to-peer network — **never to o
 </table>
 
 <sub>The desktop images use the application's built-in development data shim:
-the real v0.2.0 routes and components, with no real identity, message, wallet
+the real v0.2.1 routes and components, with no real identity, message, wallet
 or credential exposed.</sub>
 
 <div align="center">
@@ -612,7 +612,7 @@ hashgram-client net peers                       # finds nodes through the compil
 | Blockchain, eight modules, genesis tooling | Complete, tested, running |
 | `hashgram-node`, `hashgram-sdk`, `hashgram-client` | Complete; 63 network-level acceptance checks pass |
 | hashgram.io explorer, indexer, safety engine | Complete and live |
-| Hashgram One for Windows | **v0.2.0 released** — complete Mail/Drive/People/Feed/Circles/Spaces/Earn/Wallet/Network UI, signed self-updates |
+| Hashgram One for Windows | **v0.2.1 released** — complete workspace, automatic P2P recovery, actionable device setup and signed self-updates |
 | Useful-service rewards | Live: reserve funded, first provider registered |
 | iOS / Android apps, push notifications, SFU group-call E2EE, token bridge | Not built — specifications exist, and the docs say so |
 
