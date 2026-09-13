@@ -24,13 +24,13 @@
 
 Specialist in **cryptography**, **cybersecurity**, **quantum computing**, **backend engineering** and **blockchain** — and the founder of **Drogoz Network**, a Premium SaaS Network where premium software is rented monthly with transparent pricing, a dedicated manager and support that stays with you.
 
-Drogoz Network runs **15 live products** — from an unmetered AI workspace for developers and real-time face transformation, to a non-custodial crypto exchange, real-time crypto payment infrastructure, an outbound dialer that protects your numbers, enterprise email marketing, lead delivery, contact verification, endpoint management, Ethereum tooling, an always-free open-source task control center and an auditable cryptocurrency accounting platform for finance teams — with two more on the way. Every product can be seen live, for free, before you pay.
+Drogoz Network runs **16 live products** — from an unmetered AI workspace for developers and real-time face transformation, to a non-custodial crypto exchange, real-time crypto payment infrastructure, an outbound dialer that protects your numbers, enterprise email marketing, lead delivery, contact verification, endpoint management, auditable remote access for regulated teams, Ethereum tooling, an always-free open-source task control center and an auditable cryptocurrency accounting platform for finance teams — with two more on the way. Every product can be seen live, for free, before you pay.
 
 <div align="center">
 
 <br/>
 
-<img src="https://img.shields.io/badge/16-Clients-000000?style=for-the-badge&labelColor=c9a855" alt="16 clients"/> <img src="https://img.shields.io/badge/15-Active%20services-000000?style=for-the-badge&labelColor=c9a855" alt="15 active services"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
+<img src="https://img.shields.io/badge/16-Clients-000000?style=for-the-badge&labelColor=c9a855" alt="16 clients"/> <img src="https://img.shields.io/badge/16-Active%20services-000000?style=for-the-badge&labelColor=c9a855" alt="16 active services"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
 
 <br/><br/>
 
@@ -167,6 +167,17 @@ Drogoz Network runs **15 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay-com">Repo</a></sub>
 </td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<a href="https://github.com/deepdrogo/safedesk-business"><img src="assets/icons/safedesk.png" width="80" alt="SafeDesk"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/safedesk-business"><b>SafeDesk</b></a><br/>
+<sub>Remote access a security team will sign off on: HMAC-signed device events, agents with shown-once credentials, an IP restriction switch, crypto billing and an immutable audit ledger — with a free client for the people receiving help.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Standalone-1a1a1a?style=flat-square" alt="Standalone product — own account and billing"/><br/><br/>
+<sub><a href="https://safedesk.business/">Business</a> · <a href="https://safedesk.org/">Clients</a> · <a href="https://safedesk.business/docs">Docs</a> · <a href="https://github.com/deepdrogo/safedesk-business">Repo</a></sub>
+</td>
+<td valign="top" width="33%"></td>
+<td valign="top" width="33%"></td>
 </tr>
 </table>
 
