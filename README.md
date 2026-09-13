@@ -64,9 +64,9 @@ Drogoz Network runs **15 live products** — from an unmetered AI workspace for 
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/mymask-ai"><img src="assets/icons/mymask-ai.png" width="80" alt="MyMask AI"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/mymask-ai"><b>MyMask AI</b></a><br/>
-<sub>Real-time, CUDA-accelerated AI face swapping for professional video calls.</sub><br/><br/>
+<sub>Local, CUDA-accelerated identity protection for real-time calls, recording and streaming — MyMask AI Desktop 3.1.</sub><br/><br/>
 <img src="https://img.shields.io/badge/AI-c9a855?style=flat-square" alt="AI"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
-<sub><a href="https://mymask.pro/">Website</a> · <a href="https://drogoz.network/services/MyMask/">Details</a> · <a href="https://t.me/mymask_ai">Telegram</a> · <a href="https://github.com/deepdrogo/mymask-ai">Repo</a></sub>
+<sub><a href="https://mymask.ai/">Website</a> · <a href="https://drogoz.network/services/MyMask/">Details</a> · <a href="https://t.me/mymask_pro">Telegram</a> · <a href="https://github.com/deepdrogo/mymask-ai">Repo</a></sub>
 </td>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/replika"><img src="assets/icons/replika.png" width="80" alt="Replika"/></a><br/><br/>
@@ -164,7 +164,7 @@ Drogoz Network runs **15 live products** — from an unmetered AI workspace for 
 <a href="https://github.com/deepdrogo/drogopay-com"><img src="assets/icons/drogopay.png" width="80" alt="DrogoPay"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/drogopay-com"><b>DrogoPay</b></a><br/>
 <sub>Real-time crypto payment infrastructure — hosted checkout, address-first detection, honest handling of wrong amounts, signed API and live settlement.</sub><br/><br/>
-<img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
+<img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay-com">Repo</a></sub>
 </td>
 </tr>
@@ -484,7 +484,7 @@ Everything a node runs is public. Everything a client needs is public. Nothing i
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/hashgram_windows"><img src="assets/hashgram/logo-white-on-black-256.png" width="72" alt="Hashgram for Windows"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/hashgram_windows"><b>hashgram_windows</b></a> — Windows app<br/>
-<sub>Wallet, messenger (MLS), feed, reels, channels, calls, identity, Founder and Supply views, Network panel and <b>Earn</b> — run a node from your own PC. Tauri 2 + Rust + SolidJS. Encrypted vault (Argon2id, XChaCha20-Poly1305), Windows Hello unlock, self-updates from GitHub Releases verified by a compiled-in minisign key.</sub><br/><br/>
+<sub>Hashgram One v0.2.0: encrypted Mail and Drive, People, Feed, private Circles, role-based Spaces, <b>Earn</b>, Wallet, Network and Settings. Tauri 2 + Rust + SolidJS. Encrypted vault, Windows Hello unlock and signed self-updates.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Tauri%202-1a1a1a?style=flat-square&logo=tauri&logoColor=white" alt="Tauri"/> <img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Windows%2010%2F11%20x64-1a1a1a?style=flat-square&logo=windows&logoColor=white" alt="Windows"/><br/><br/>
 <sub><a href="https://github.com/deepdrogo/hashgram_windows/releases/latest">Download</a> · <a href="https://github.com/deepdrogo/hashgram_windows/tree/main/apps/desktop">Source</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_DESKTOP_AI.md">Spec</a></sub>
 </td>
@@ -538,14 +538,30 @@ One application that talks to the Hashgram peer-to-peer network — **never to o
 
 | | |
 |---|---|
-| **Wallet** | Send, receive, stake and delegate HASH. Register an `@username`. Every amount is exact integer `uhash` — no floats, no rounding. |
-| **Messenger** | MLS end-to-end encrypted one-to-one and group chats, delivered through interchangeable store nodes. Nodes see ciphertext and sizes only. |
-| **Feed · Reels · Channels** | Public posts, short videos and channels as signed social events, verified against on-chain device keys by every reader. |
-| **Calls** | Audio and video via TURN credentials issued by call nodes; E2EE signalling. |
-| **Identity** | A 24-word account. Login *is* restore. Add devices with certificates, recover socially with a delay. A display name is never shown without the verified `@username` or address. |
-| **Earn** | Run a relay / store / media node from your own PC and be paid from the reserve for bytes you actually serve. |
-| **Security** | Encrypted vault (Argon2id, XChaCha20-Poly1305 sealed columns), DPAPI + Windows Hello unlock, nothing plaintext on disk, no hardcoded server address anywhere. |
-| **Updates** | Self-updates from GitHub Releases; only manifests signed by the project's compiled-in minisign key are accepted. |
+| **Mail** | End-to-end encrypted HashMail with threads, Requests, CC/BCC, receipts, local drafts and file or HashDrive attachments. |
+| **Drive** | Client-side encrypted folders and files, versions, trash, snapshot/live capability sharing and deterministic multi-device manifests. |
+| **People · Feed · Circles** | On-chain identity discovery, private local relationship state, signed chronological posts and private client-decrypted audiences. |
+| **Spaces** | Private workspaces with Owner/Admin/Member/Guest roles, group Mail, posts, announcements and shared Drive. |
+| **Earn** | Run or supervise a useful-service node from the PC and inspect provider lifecycle, assignments and earnings. |
+| **Wallet** | Send, receive and stake HASH; manage usernames and devices. Every amount remains an integer string — no floats, no rounding. |
+| **Network** | Connected and rejected peers, chain height, pinned genesis, supply, provider reserve and privacy-safe diagnostics. |
+| **Security** | Argon2id + XChaCha20 vault, DPAPI/Windows Hello unlock, MLS payloads, sealed local caches and a typed Tauri boundary that never returns secret keys to the webview. |
+| **Updates** | v0.2.0 self-updates from GitHub Releases; only manifests and packages verified against the compiled-in minisign key are accepted. |
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/hashgram/hashgram-windows-mail.png" alt="Hashgram One Mail"/><br/><sub><b>Mail</b> — one encrypted inbox over one identity</sub></td>
+<td width="50%" align="center"><img src="assets/hashgram/hashgram-windows-drive.png" alt="Hashgram One Drive"/><br/><sub><b>Drive</b> — encrypted folders, versions and shares</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/hashgram/hashgram-windows-wallet.png" alt="Hashgram One Wallet"/><br/><sub><b>Wallet</b> — HASH, staking, usernames and devices</sub></td>
+<td width="50%" align="center"><img src="assets/hashgram/hashgram-windows-network.png" alt="Hashgram One Network"/><br/><sub><b>Network</b> — peers, genesis, supply and diagnostics</sub></td>
+</tr>
+</table>
+
+<sub>The desktop images use the application's built-in development data shim:
+the real v0.2.0 routes and components, with no real identity, message, wallet
+or credential exposed.</sub>
 
 <div align="center">
 <br/>
@@ -586,7 +602,7 @@ hashgram-client net peers                       # finds nodes through the compil
 
 <sub><a href="https://github.com/deepdrogo/hashgram/blob/main/docs/CLIENT_CONNECTIVITY_SPEC.md">Client connectivity spec</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_IOS_APP.md">iOS</a> · <a href="https://github.com/deepdrogo/hashgram/blob/main/docs/PROMPT_ANDROID_APP.md">Android</a> · <a href="https://hashgram.io/api/v1/docs">Read API</a> · <a href="https://github.com/deepdrogo/hashgram/tree/main/sdk/rust/hashgram-sdk">SDK source</a></sub>
 
-**🕊️ Or simply use it.** Download the Windows app, write down your 24 words, and you have a wallet, a messenger and a social network with no account, no e-mail and no phone number. Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.
+**🕊️ Or simply use it.** Download Hashgram One for Windows, write down your 24 words, and you have Mail, Drive, People, Feed, Circles, Spaces, Earn, Wallet and Network with no central account, e-mail or phone number. Your keys never leave your machine. Lose the 24 words and nobody — not me, not a node, not a court order — can restore them. That is the trade, stated plainly.
 
 ### 📋 Status — honest
 
@@ -596,7 +612,7 @@ hashgram-client net peers                       # finds nodes through the compil
 | Blockchain, eight modules, genesis tooling | Complete, tested, running |
 | `hashgram-node`, `hashgram-sdk`, `hashgram-client` | Complete; 63 network-level acceptance checks pass |
 | hashgram.io explorer, indexer, safety engine | Complete and live |
-| Hashgram for Windows | **v0.1.0 released** — first public build, self-updating |
+| Hashgram One for Windows | **v0.2.0 released** — complete Mail/Drive/People/Feed/Circles/Spaces/Earn/Wallet/Network UI, signed self-updates |
 | Useful-service rewards | Live: reserve funded, first provider registered |
 | iOS / Android apps, push notifications, SFU group-call E2EE, token bridge | Not built — specifications exist, and the docs say so |
 
