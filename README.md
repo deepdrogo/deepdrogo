@@ -658,6 +658,26 @@ I publish this table because a decentralised network with one validator is a des
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
+## 🤝 Open-source projects I support
+
+<table>
+<tr>
+<td align="center" width="100%">
+<br/>
+<a href="https://genoryn.io/"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/genoryn-mark.svg" width="80" alt="GENORYN"/></a><br/><br/>
+<a href="https://genoryn.io/"><b>GENORYN</b></a><br/>
+<sub>An open-source, privacy-focused cryptocurrency with CPU mining and a desktop wallet.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Open%20source-c9a855?style=flat-square" alt="Open source"/> <img src="https://img.shields.io/badge/CPU%20mining-1a1a1a?style=flat-square" alt="CPU mining"/> <img src="https://img.shields.io/badge/Desktop%20wallet-1a1a1a?style=flat-square" alt="Desktop wallet"/><br/><br/>
+<sub><a href="https://genoryn.io/">Website</a> · <a href="https://github.com/genoryn/genoryn">Source code</a></sub>
+<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="assets/divider.svg" width="100%" height="4" alt=""/>
+
 ## 🧰 Tech stack
 
 <div align="center">
