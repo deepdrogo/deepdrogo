@@ -660,7 +660,7 @@ I publish this table because a decentralised network with one validator is a des
 
 ## 🤝 Open-source projects I support
 
-<table>
+<table align="center">
 <tr>
 <td align="center" width="100%">
 <br/>
