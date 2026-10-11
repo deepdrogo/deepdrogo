@@ -8,7 +8,6 @@
 <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Telegram-%40drogoz-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="mailto:hello@drogoz.network"><img src="https://img.shields.io/badge/Email-hello%40drogoz.network-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://drogoz.network"><img src="https://img.shields.io/badge/Premium-SaaS%20Network-c9a855?style=for-the-badge&labelColor=000000" alt="Premium SaaS Network"/></a>
-<!-- Komarev tracks views; Shields renders its live count with a short cache. -->
 <img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fkomarev.com%2Fghpvc%2F%3Fusername%3Ddeepdrogo%26color%3Dc9a855%26style%3Dfor-the-badge%26label%3DPROFILE%2520VIEWS&amp;query=%28%2F%2F%2A%5Blocal-name%28%29%3D%22text%22%5D%29%5Blast%28%29%5D&amp;label=PROFILE+VIEWS&amp;color=c9a855&amp;labelColor=555&amp;style=for-the-badge" alt="Profile views"/>
 <img src="https://komarev.com/ghpvc/?username=deepdrogo&amp;style=pixel" width="1" height="1" alt=""/>
 
