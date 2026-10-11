@@ -8,7 +8,7 @@
 <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Telegram-%40drogoz-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="mailto:hello@drogoz.network"><img src="https://img.shields.io/badge/Email-hello%40drogoz.network-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://drogoz.network"><img src="https://img.shields.io/badge/Premium-SaaS%20Network-c9a855?style=for-the-badge&labelColor=000000" alt="Premium SaaS Network"/></a>
-<img src="https://komarev.com/ghpvc/?username=deepdrogo&color=c9a855&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=deepdrogo&amp;color=c9a855&amp;style=for-the-badge&amp;label=PROFILE%20VIEWS" alt="Profile views"/>
 
 </div>
 
