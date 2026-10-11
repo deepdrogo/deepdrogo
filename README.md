@@ -85,21 +85,12 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <sub><a href="https://lidaro.ai/">Website</a> · <a href="https://drogoz.network/services/Lidaro/">Details</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Repo</a></sub>
 </td>
 <td align="center" valign="top" width="33%">
-<a href="https://github.com/deepdrogo/imperatori"><img src="assets/icons/imperatori.png" width="80" alt="IMPERATORI"/></a><br/><br/>
-<a href="https://github.com/deepdrogo/imperatori"><b>IMPERATORI</b></a><br/>
-<sub>All-in-one remote support and endpoint management for IT professionals, MSPs and enterprises.</sub><br/><br/>
-<img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
-<sub><a href="https://drogoz.network/services/Imperatori/">Details</a> · <a href="https://github.com/deepdrogo/imperatori">Repo</a></sub>
-</td>
-<td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/zoi-talks"><img src="assets/icons/zoi-talks.png" width="80" alt="ZOI Talks"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/zoi-talks"><b>ZOI Talks</b></a><br/>
 <sub>Browser dialer for teams that live on the phone — real calls from your own numbers, with built-in number protection.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Dialer-c9a855?style=flat-square" alt="Dialer"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://zoitalks.com/">Website</a> · <a href="https://drogoz.network/services/zoi-dialer/">Details</a> · <a href="https://github.com/deepdrogo/zoi-talks">Repo</a></sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/riderswap-io"><img src="assets/icons/riderswap-io.png" width="80" alt="RiderSwap"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/riderswap-io"><b>RiderSwap</b></a><br/>
@@ -107,6 +98,8 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/><br/><br/>
 <sub><a href="https://riderswap.io/">Website</a> · <a href="https://drogoz.network/services/riderswap/">Details</a> · <a href="https://github.com/deepdrogo/riderswap-io">Repo</a></sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/hyperblast-ai"><img src="assets/icons/hyperblast-ai.png" width="80" alt="HyperBlast AI"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/hyperblast-ai"><b>HyperBlast AI</b></a><br/>
@@ -121,8 +114,6 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Verify-c9a855?style=flat-square" alt="Verify"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://verifhub.ai/">Website</a> · <a href="https://drogoz.network/services/VerifHub/">Details</a> · <a href="https://github.com/deepdrogo/verifhub-ai">Repo</a></sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/vadira-net"><img src="assets/icons/vadira-net.png" width="80" alt="Vadira"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/vadira-net"><b>Vadira</b></a><br/>
@@ -130,6 +121,8 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://vadira.net/">Website</a> · <a href="https://drogoz.network/services/vadira/">Details</a> · <a href="https://t.me/vadira_net">Telegram</a> · <a href="https://github.com/deepdrogo/vadira-net">Repo</a></sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/skriper-io"><img src="assets/icons/skriper-io.png" width="80" alt="Skriper"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/skriper-io"><b>Skriper</b></a><br/>
@@ -144,8 +137,6 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Always%20free-c9a855?style=flat-square" alt="Always free"/><br/><br/>
 <sub><a href="https://mytasker.io/">Website</a> · <a href="https://drogoz.network/services/mytasker/">Details</a> · <a href="https://t.me/mytaskerproductiondrogoz_bot">Telegram</a> · <a href="https://github.com/deepdrogo/mytasker">Source code</a></sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/mamont-tech"><img src="assets/icons/mamont-tech.png" width="80" alt="Mamont"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/mamont-tech"><b>Mamont</b></a><br/>
@@ -153,6 +144,8 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Finance-c9a855?style=flat-square" alt="Finance"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/> <img src="https://img.shields.io/badge/Private%20deployment-1a1a1a?style=flat-square" alt="Private deployment"/><br/><br/>
 <sub><a href="https://github.com/deepdrogo/mamont-tech">Repo</a></sub>
 </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/drogscan"><img src="assets/icons/drogscan.png" width="80" alt="DrogScan"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/drogscan"><b>DrogScan</b></a><br/>
@@ -167,8 +160,6 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Payments-c9a855?style=flat-square" alt="Payments"/> <img src="https://img.shields.io/badge/Live-1a1a1a?style=flat-square" alt="Live"/><br/><br/>
 <sub><a href="https://drogopay.com/">Website</a> · <a href="https://drogopay.com/guide">Guide</a> · <a href="https://github.com/deepdrogo/drogopay-com">Repo</a></sub>
 </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33%">
 <a href="https://github.com/deepdrogo/safedesk-business"><img src="assets/icons/safedesk.png" width="80" alt="SafeDesk"/></a><br/><br/>
 <a href="https://github.com/deepdrogo/safedesk-business"><b>SafeDesk</b></a><br/>
@@ -176,8 +167,6 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 <img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Standalone-1a1a1a?style=flat-square" alt="Standalone product — own account and billing"/><br/><br/>
 <sub><a href="https://safedesk.business/">Business</a> · <a href="https://safedesk.org/">Clients</a> · <a href="https://safedesk.business/docs">Docs</a> · <a href="https://github.com/deepdrogo/safedesk-business">Repo</a></sub>
 </td>
-<td valign="top" width="33%"></td>
-<td valign="top" width="33%"></td>
 </tr>
 </table>
 
@@ -200,9 +189,9 @@ Drogoz Network runs **16 live products** — from an unmetered AI workspace for 
 
 | Bundle | Discount | Best for | Included |
 |---|---|---|---|
-| **Utilities** | <img src="https://img.shields.io/badge/%E2%88%922%25-c9a855?style=flat-square" alt="−2%"/> | Core utility tools | [Drog AI](https://github.com/deepdrogo/drog-ai), [MyMask AI](https://github.com/deepdrogo/mymask-ai), [Replika](https://github.com/deepdrogo/replika), [IMPERATORI](https://github.com/deepdrogo/imperatori), [RiderSwap](https://github.com/deepdrogo/riderswap-io), [Vadira](https://github.com/deepdrogo/vadira-net), [Skriper](https://github.com/deepdrogo/skriper-io) |
+| **Utilities** | <img src="https://img.shields.io/badge/%E2%88%922%25-c9a855?style=flat-square" alt="−2%"/> | Core utility tools | [Drog AI](https://github.com/deepdrogo/drog-ai), [MyMask AI](https://github.com/deepdrogo/mymask-ai), [Replika](https://github.com/deepdrogo/replika), [RiderSwap](https://github.com/deepdrogo/riderswap-io), [Vadira](https://github.com/deepdrogo/vadira-net), [Skriper](https://github.com/deepdrogo/skriper-io) |
 | **Traffic** | <img src="https://img.shields.io/badge/%E2%88%925%25-c9a855?style=flat-square" alt="−5%"/> | Everything for traffic ops | [Lidaro AI](https://github.com/deepdrogo/lidaro-ai), [HyperBlast AI](https://github.com/deepdrogo/hyperblast-ai), [VerifHub AI](https://github.com/deepdrogo/verifhub-ai) |
-| **All In One** | <img src="https://img.shields.io/badge/%E2%88%9210%25-c9a855?style=flat-square" alt="−10%"/> | Every product, best price | [Drog AI](https://github.com/deepdrogo/drog-ai), [MyMask AI](https://github.com/deepdrogo/mymask-ai), [Replika](https://github.com/deepdrogo/replika), [Lidaro AI](https://github.com/deepdrogo/lidaro-ai), [IMPERATORI](https://github.com/deepdrogo/imperatori), [ZOI Talks](https://github.com/deepdrogo/zoi-talks), [RiderSwap](https://github.com/deepdrogo/riderswap-io), [HyperBlast AI](https://github.com/deepdrogo/hyperblast-ai), [VerifHub AI](https://github.com/deepdrogo/verifhub-ai), [Vadira](https://github.com/deepdrogo/vadira-net), [Skriper](https://github.com/deepdrogo/skriper-io) |
+| **All In One** | <img src="https://img.shields.io/badge/%E2%88%9210%25-c9a855?style=flat-square" alt="−10%"/> | Every product, best price | [Drog AI](https://github.com/deepdrogo/drog-ai), [MyMask AI](https://github.com/deepdrogo/mymask-ai), [Replika](https://github.com/deepdrogo/replika), [Lidaro AI](https://github.com/deepdrogo/lidaro-ai), [ZOI Talks](https://github.com/deepdrogo/zoi-talks), [RiderSwap](https://github.com/deepdrogo/riderswap-io), [HyperBlast AI](https://github.com/deepdrogo/hyperblast-ai), [VerifHub AI](https://github.com/deepdrogo/verifhub-ai), [Vadira](https://github.com/deepdrogo/vadira-net), [Skriper](https://github.com/deepdrogo/skriper-io) |
 
 > **Always free, no bundle needed:** [MyTasker](https://github.com/deepdrogo/mytasker) — one control center for life, business and time; no premium tier, no trial, no paywall ([mytasker.io](https://mytasker.io/)).
 
@@ -744,7 +733,7 @@ I publish this table because a decentralised network with one validator is a des
   <b>Made by <a href="https://drogoz.network">Drogoz Network</a></b><br/>
   <sub>One network — all your services · Premium SaaS Network</sub>
   <br/><br/>
-  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a></sub>
+  <sub><a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a></sub>
   <br/><br/>
   <sub>Open project, not a service · <a href="https://hashgram.io">Hashgram</a> — <a href="https://github.com/deepdrogo/hashgram">Core</a> · <a href="https://github.com/deepdrogo/hashgram_io">Explorer</a> · <a href="https://github.com/deepdrogo/hashgram_windows">Windows app</a> · Apache-2.0</sub>
   <br/><br/>
