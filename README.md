@@ -219,19 +219,59 @@ See any service in action before you pay — our agent gets in touch and walks y
 
 ## 🤝 Open-source projects I support
 
-<table align="center">
-<tr>
-<td align="center" width="100%">
+<div align="center">
+
+<a href="https://genoryn.io/"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/readme-hero.png" width="100%" alt="GENORYN — Privacy is not a crime. It's a right."/></a>
+
 <br/>
-<a href="https://genoryn.io/"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/genoryn-mark.svg" width="80" alt="GENORYN"/></a><br/><br/>
-<a href="https://genoryn.io/"><b>GENORYN</b></a><br/>
-<sub>An open-source, privacy-focused cryptocurrency with CPU mining and a desktop wallet.</sub><br/><br/>
-<img src="https://img.shields.io/badge/Open%20source-c9a855?style=flat-square" alt="Open source"/> <img src="https://img.shields.io/badge/CPU%20mining-1a1a1a?style=flat-square" alt="CPU mining"/> <img src="https://img.shields.io/badge/Desktop%20wallet-1a1a1a?style=flat-square" alt="Desktop wallet"/><br/><br/>
-<sub><a href="https://genoryn.io/">Website</a> · <a href="https://github.com/genoryn/genoryn">Source code</a></sub>
+
+### GENORYN · Open-source, privacy-focused digital cash
+
+An independent proof-of-work network built in Rust, with shielded payments,<br/>
+a **21 million GNR supply cap** and a desktop wallet that keeps keys and signing on your device.
+
+<br/>
+
+<img src="https://img.shields.io/badge/Open%20source-c9a855?style=flat-square" alt="Open source"/>
+<img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Built in Rust"/>
+<img src="https://img.shields.io/badge/Windows%20%7C%20Linux-1a1a1a?style=flat-square" alt="Windows and Linux"/>
+<img src="https://img.shields.io/badge/MIT%20%2F%20Apache--2.0-1a1a1a?style=flat-square" alt="MIT or Apache-2.0 license"/>
+
 <br/><br/>
+
+</div>
+
+<table>
+<tr>
+<td valign="top" width="33%">
+<b>01 · Shielded payments</b><br/><br/>
+<sub>Orchard / Halo 2 proofs protect transaction details. Built-in Tor adds a network privacy layer, with Tor-only networking enabled on new installations.</sub>
+</td>
+<td valign="top" width="33%">
+<b>02 · Local verification</b><br/><br/>
+<sub>Use your own full node or Quick mode over Tor. Both validate blocks locally; keys, signing and balance scanning stay on your computer.</sub>
+</td>
+<td valign="top" width="33%">
+<b>03 · CPU mining</b><br/><br/>
+<sub>RandomX proof of work runs on ordinary CPUs. The full GENORYN edition includes mining; GENORYN Lite focuses on wallet functionality.</sub>
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+<br/>
+
+<b><a href="https://github.com/genoryn/genoryn/releases/latest">Download wallet</a></b> ·
+<b><a href="https://genoryn.io/">Explore GENORYN</a></b> ·
+<a href="https://github.com/genoryn/genoryn">Source code</a> ·
+<a href="https://github.com/genoryn/genoryn/blob/main/docs/quickstart.md">Quickstart</a>
+
+<br/><br/>
+
+<sub>Not independently audited. Privacy has limits; review the <a href="https://github.com/genoryn/genoryn/blob/main/docs/security/threat-model.md">threat model</a> before use.</sub>
+
+</div>
 
 <br/>
 
