@@ -31,7 +31,7 @@ Drogoz Network brings together tools for development, communications, payments, 
 
 <br/>
 
-<img src="https://img.shields.io/badge/15-Listed%20products-000000?style=for-the-badge&labelColor=c9a855" alt="15 listed products"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
+<img src="https://img.shields.io/badge/16-Listed%20products-000000?style=for-the-badge&labelColor=c9a855" alt="16 listed products"/> <img src="https://img.shields.io/badge/99.9%25-Uptime-000000?style=for-the-badge&labelColor=c9a855" alt="99.9% uptime"/> <img src="https://img.shields.io/badge/100%25-Free%20live%20demo-000000?style=for-the-badge&labelColor=c9a855" alt="Free live demonstration"/>
 
 <br/><br/>
 
@@ -167,6 +167,16 @@ Drogoz Network brings together tools for development, communications, payments, 
 <sub>Remote access a security team will sign off on: HMAC-signed device events, agents with shown-once credentials, an IP restriction switch, crypto billing and an immutable audit ledger — with a free client for the people receiving help.</sub><br/><br/>
 <img src="https://img.shields.io/badge/Utilities-c9a855?style=flat-square" alt="Utilities"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/> <img src="https://img.shields.io/badge/Standalone-1a1a1a?style=flat-square" alt="Standalone product — own account and billing"/><br/><br/>
 <sub><a href="https://safedesk.business/">Business</a> · <a href="https://safedesk.org/">Clients</a> · <a href="https://safedesk.business/docs">Docs</a> · <a href="https://github.com/deepdrogo/safedesk-business">Repo</a></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="top" colspan="3">
+<a href="https://github.com/deepdrogo/masting-ai"><img src="https://raw.githubusercontent.com/deepdrogo/masting-ai/main/assets/icon.png" width="80" alt="Masting"/></a><br/><br/>
+<a href="https://github.com/deepdrogo/masting-ai"><b>Masting</b></a><br/>
+<sub>Corporate email for teams — professional mailboxes, company supervision, approved-network access and managed domains.<br/>$999/company/month after a 14-day subscription trial; three-domain combos are $399/month, including during the trial. Not bulk-email marketing.</sub><br/><br/>
+<img src="https://img.shields.io/badge/Mail-c9a855?style=flat-square" alt="Mail"/> <img src="https://img.shields.io/badge/New-c9a855?style=flat-square" alt="New"/><br/><br/>
+<sub><a href="https://masting.ai/">Website</a> · <a href="https://masting.ai/pricing">Pricing</a> · <a href="https://t.me/drogoz">Telegram</a> · <a href="https://github.com/deepdrogo/masting-ai">Repo</a></sub>
 </td>
 </tr>
 </table>
