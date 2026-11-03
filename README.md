@@ -231,56 +231,48 @@ See any service in action before you pay — our agent gets in touch and walks y
 
 <div align="center">
 
-<a href="https://genoryn.io/"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/readme-hero.png" width="100%" alt="GENORYN — Privacy is not a crime. It's a right."/></a>
+<a href="https://genoryn.io/"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/banner-light.png"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/banner-dark.png" width="100%" alt="Genoryn Krypton — quantum-resistant, private money"/></picture></a>
 
-<br/>
+### Genoryn Krypton · Private digital cash, reimagined
 
-### GENORYN · Open-source, privacy-focused digital cash
+**An independent open-source project supported by Drogoz Network.**
 
-An independent proof-of-work network built in Rust, with shielded payments,<br/>
-a **21 million GNR supply cap** and a desktop wallet that keeps keys and signing on your device.
-
-<br/>
-
-<img src="https://img.shields.io/badge/Open%20source-c9a855?style=flat-square" alt="Open source"/>
-<img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=white" alt="Built in Rust"/>
-<img src="https://img.shields.io/badge/Windows%20%7C%20Linux-1a1a1a?style=flat-square" alt="Windows and Linux"/>
-<img src="https://img.shields.io/badge/MIT%20%2F%20Apache--2.0-1a1a1a?style=flat-square" alt="MIT or Apache-2.0 license"/>
-
-<br/><br/>
+Rust-based digital cash with shielded transfers, a 21 million GNR cap,<br/>
+a redesigned desktop wallet and GPU / CPU mining.
 
 </div>
 
 <table>
 <tr>
-<td valign="top" width="33%">
-<b>01 · Shielded payments</b><br/><br/>
-<sub>Orchard / Halo 2 proofs protect transaction details. Built-in Tor adds a network privacy layer, with Tor-only networking enabled on new installations.</sub>
-</td>
-<td valign="top" width="33%">
-<b>02 · Local verification</b><br/><br/>
-<sub>Use your own full node or Quick mode over Tor. Both validate blocks locally; keys, signing and balance scanning stay on your computer.</sub>
-</td>
-<td valign="top" width="33%">
-<b>03 · CPU mining</b><br/><br/>
-<sub>RandomX proof of work runs on ordinary CPUs. The full GENORYN edition includes mining; GENORYN Lite focuses on wallet functionality.</sub>
-</td>
+<td valign="top" width="33%"><b>01 · Post-quantum design</b><br/><br/><sub>zk-STARK spending proofs and hybrid ML-KEM encryption, as documented by the project. No independent security audit yet.</sub></td>
+<td valign="top" width="33%"><b>02 · Wallet &amp; verification</b><br/><br/><sub>Light-client verification or your own full node. Local keys, short addresses, private transfers and payment proofs.</sub></td>
+<td valign="top" width="33%"><b>03 · GPU &amp; CPU mining</b><br/><br/><sub>KryptoHash proof of work with proportional mining rewards. The published schedule starts at 5 GNR per block, with halvings every 2,100,000 blocks.</sub></td>
 </tr>
 </table>
 
+### Current Krypton interface
+
+<table>
+<tr>
+<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp" alt="Genoryn Krypton wallet: balance, receive and private send" width="100%"/></a></td>
+<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp" alt="Genoryn Krypton mining: hardware and proportional rewards" width="100%"/></a></td>
+<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp" alt="Genoryn Krypton history and payment proof verification" width="100%"/></a></td>
+</tr>
+<tr><td align="center">Wallet</td><td align="center">Mining</td><td align="center">Payment proofs</td></tr>
+</table>
+
+<sub>Current project-published Krypton screenshots, reviewed November 3, 2026. These images show the devnet interface; displayed balances, hashrates and rewards are not live mainnet statistics or earnings promises.</sub>
+
 <div align="center">
-
 <br/>
-
-<b><a href="https://github.com/genoryn/genoryn/releases/latest">Download wallet</a></b> ·
-<b><a href="https://genoryn.io/">Explore GENORYN</a></b> ·
-<a href="https://github.com/genoryn/genoryn">Source code</a> ·
-<a href="https://github.com/genoryn/genoryn/blob/main/docs/quickstart.md">Quickstart</a>
-
+<b><a href="https://genoryn.io/">Website</a></b> ·
+<a href="https://genoryn.io/explorer.html">Explorer</a> ·
+<a href="https://github.com/genoryn/genoryn/releases/latest">Downloads</a> ·
+<a href="https://genoryn.io/docs.html">Documentation</a> ·
+<a href="https://github.com/genoryn/genoryn">Official source</a> ·
+<a href="https://github.com/genoryn/genoryn/blob/main/SECURITY.md">Security</a>
 <br/><br/>
-
-<sub>Not independently audited. Privacy has limits; review the <a href="https://github.com/genoryn/genoryn/blob/main/docs/security/threat-model.md">threat model</a> before use.</sub>
-
+<sub>Krypton is a new network, not a promise that legacy GENORYN wallets or balances migrate. Use current official instructions. Not independently audited; not investment advice.</sub>
 </div>
 
 <br/>
