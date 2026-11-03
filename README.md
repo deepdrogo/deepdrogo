@@ -227,6 +227,52 @@ See any service in action before you pay — our agent gets in touch and walks y
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
+## ♠ Pokerzor · A poker room built for the browser
+
+<div align="center">
+
+**No-limit Hold’em · Pot-limit Omaha · Tournaments · Pokerface**
+
+A dedicated poker platform with a searchable table lobby, tournament schedules,<br/>
+camera-enabled Pokerface tables and a community-focused interface.
+
+<a href="https://pokerzor.com/"><img src="assets/pokerzor/home.jpg" width="100%" alt="Pokerzor homepage — current dark and orange interface"/></a>
+
+</div>
+
+<table>
+<tr>
+<td valign="top" width="33%"><b>01 · Find your table</b><br/><br/><sub>Browse Hold’em and Omaha tables, compare stakes and buy-ins, and explore cash-game or Pokerface formats.</sub></td>
+<td valign="top" width="33%"><b>02 · Follow the action</b><br/><br/><sub>Tournament schedules, public live-stream listings, player rankings and community pages in one navigation.</sub></td>
+<td valign="top" width="33%"><b>03 · Faces at the table</b><br/><br/><sub>Pokerface is the platform’s camera-enabled poker format, presented alongside classic tables.</sub></td>
+</tr>
+</table>
+
+### Current Pokerzor interface
+
+<table>
+<tr>
+<td width="50%"><a href="assets/pokerzor/lobby.jpg"><img src="assets/pokerzor/lobby.jpg" width="100%" alt="Pokerzor public cash-game lobby with table filters and stakes"/></a></td>
+<td width="50%"><a href="assets/pokerzor/tournaments.jpg"><img src="assets/pokerzor/tournaments.jpg" width="100%" alt="Pokerzor tournament schedule and event details"/></a></td>
+</tr>
+<tr><td align="center">Table lobby</td><td align="center">Tournaments</td></tr>
+</table>
+
+<sub>Real public-site screenshots captured November 3, 2026. Displayed player counts, stakes, event dates and prize figures are time-specific UI content, not independently verified operating results or guaranteed returns. This is a product presentation, not a security or licensing certification.</sub>
+
+<div align="center">
+<br/>
+<b><a href="https://pokerzor.com/">Website</a></b> ·
+<a href="https://pokerzor.com/#lobby">Lobby</a> ·
+<a href="https://pokerzor.com/#tournaments">Tournaments</a>
+<br/><br/>
+<sub>18+ · Subject to local law and the platform’s terms. Play responsibly.</sub>
+</div>
+
+<br/>
+
+<img src="assets/divider.svg" width="100%" height="4" alt=""/>
+
 ## 🤝 Open-source projects I support
 
 <div align="center">
