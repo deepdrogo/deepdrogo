@@ -291,7 +291,7 @@ a redesigned desktop wallet and GPU / CPU mining.
 <table>
 <tr>
 <td valign="top" width="33%"><b>01 · Post-quantum design</b><br/><br/><sub>zk-STARK spending proofs and hybrid ML-KEM encryption, as documented by the project. No independent security audit yet.</sub></td>
-<td valign="top" width="33%"><b>02 · Wallet &amp; verification</b><br/><br/><sub>Light-client verification or your own full node. Local keys, short addresses, private transfers and payment proofs.</sub></td>
+<td valign="top" width="33%"><b>02 · Wallet &amp; verification</b><br/><br/><sub>Several wallets with individual passwords and one combined balance. Network charts, light-client verification or your own full node, private transfers and payment proofs.</sub></td>
 <td valign="top" width="33%"><b>03 · GPU &amp; CPU mining</b><br/><br/><sub>KryptoHash proof of work with proportional mining rewards. The published schedule starts at 5 GNR per block, with halvings every 2,100,000 blocks.</sub></td>
 </tr>
 </table>
@@ -300,14 +300,18 @@ a redesigned desktop wallet and GPU / CPU mining.
 
 <table>
 <tr>
-<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp" alt="Genoryn Krypton wallet: balance, receive and private send" width="100%"/></a></td>
-<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp" alt="Genoryn Krypton mining: hardware and proportional rewards" width="100%"/></a></td>
-<td width="33%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp" alt="Genoryn Krypton history and payment proof verification" width="100%"/></a></td>
+<td width="50%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp?v=20261104"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallet.webp?v=20261104" alt="Genoryn Krypton updated network overview and live charts" width="100%"/></a></td>
+<td width="50%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallets.webp?v=20261104"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/wallets.webp?v=20261104" alt="Genoryn Krypton multi-wallet tab with individual locks and combined balance" width="100%"/></a></td>
 </tr>
-<tr><td align="center">Wallet</td><td align="center">Mining</td><td align="center">Payment proofs</td></tr>
+<tr><td align="center">Network &amp; mining overview</td><td align="center">Several wallets, one total</td></tr>
+<tr>
+<td width="50%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp?v=20261104"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/mining.webp?v=20261104" alt="Genoryn Krypton mining controls and proportional reward display" width="100%"/></a></td>
+<td width="50%"><a href="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp?v=20261104"><img src="https://raw.githubusercontent.com/genoryn/genoryn/main/docs/images/proofs.webp?v=20261104" alt="Genoryn Krypton history and payment proof verification" width="100%"/></a></td>
+</tr>
+<tr><td align="center">GPU / CPU mining</td><td align="center">Payment proofs</td></tr>
 </table>
 
-<sub>Current project-published Krypton screenshots, reviewed November 3, 2026. These images show the devnet interface; displayed balances, hashrates and rewards are not live mainnet statistics or earnings promises.</sub>
+<sub>Current project-published Krypton screenshots, reviewed November 4, 2026. The overview displays a mainnet-labelled snapshot; the multi-wallet, mining and proof views are devnet examples. Displayed balances, network figures and rewards are illustrative, time-specific UI content, not live statistics or earnings promises.</sub>
 
 <div align="center">
 <br/>
